@@ -1,0 +1,141 @@
+<html>
+   <head>
+       <link rel="stylesheet" href="../css/css_cheat_sheet.css">
+   </head>
+
+   <body>
+       
+    <h1> CSS Cheat Sheet </h1>
+    <p> Francisco D. Salcedo </p>
+    <p> a01633010 </p>
+    <br>
+
+    <h2> Ligando una hoja de estilo al documento </h2>
+    <p> Para ligar una hoja de estilo se puede definir el estilo utilizando el tag &#60;style&#62; dentro del tag &#60;head&#62;. </p>
+    <p> Para ligar una hoja de estilo externa se puede definir el recurso utilizando el tag &#60;link&#62; dentro del tagh &#60;head&#62; y definiendo la ubicación en su atributo <i>href</i>.
+    
+    <br>
+    
+    <h3>Border</h3>
+        
+        <p> La regla <i>border</i> permite la definición  de enmarcado de un elemento.</p>
+        <p> Tambien las reglas <i>border-left</i> <i>border-right</i> <i>border-top</i> <i>border-bottom</i> permite definir el enmarcado en cada lado.</p>
+        <p> La regla <i>border-width</i> permite la definición de tamaño de enmarcado</p>
+        <p> La regla <i>border-radius</i> permite la definición de enmarcados redondeados a cierto radio.</p>
+        <p> La regla <i>border-color</i> permite la definición de color de enmarcado.</p>
+        <p> La regla <i>border-style</i> premite la definición del estilo de linea de enmarcado.</p>
+
+        <p> El siguiente elemento <i>div</i> tiene las siguientes reglas</p>
+        <p><i>div {<br>
+        border-width: 10px;
+        border-color: red;<br>
+        border-style: solid;<br>
+        border-radius: 10px;<br>
+        }<br></i></p>
+        
+        <p> Que es lo mismo que, </p>
+        <p><i>div {<br>
+        border: 10px solid red;<br>
+        border-radius: 10px;<br>
+        }<br></i></p>
+        
+        <div id="div-border">I am a container!</div>
+        <br>
+        
+        <h3>Estilo de Texto</h3>
+            
+            <p> La regla <i>font</i> permite la definición de estilo de texto.</p>
+            <p> La regla <i>font-size</i> permite la definición del tamaño de fuente en diversas medidas.</p>
+            <p> La regla <i>font-family</i> permite la definición del tipo de fuente a utilizar.</p>
+            <p> La regla <i>font-style</i> permite la definición del estilo de fuente, si existe dentro de la familia escogida.</p>
+            <p> La regla <i>font-weight</i> permite la definición de peso de la fuente.</p>
+            <p> La regla <i>color</i> permite la definición de color en RGB o HEX o Shorthand del texto.</p>
+
+            <p> El siguiente elemento <i>p</i> tiene las siguientes reglas</p>
+            <p><i>p {<br>
+            font-size: 40pt;<br>
+            font-family: Helvetica;<br>
+            font-style: italic;<br>
+            font-weight: 400;<br>
+            color: pink;<br>
+            }<br></i></p>
+            
+            <p> Que es lo mismo que, </p>
+            <p><i>p {<br>
+            font: italic 400 40pt Helvetica;<br>
+            color: pink; <br>
+            }<br></i></p>
+            
+            
+            <p id="p-text">I am a container!</p>
+            <br>
+            
+            <h3>Estilo de Lista</h3>
+            <p> La regla <i>list-style</i> permite la definición de estilo de lista.</p>
+            
+            <p> La regla <i>list-style-type</i> permite la definición de apariencia del listado.</p>
+            <p> La regla <i>list-style-image</i> permite la definición de apariencia del listado con una imagen.</p>
+            <p> La regla <i>list-style-position</i> permite la definición de colocación del listado partiendo del encabezado.</p>
+            
+            <p> El siguiente elemento <i>ul</i> tiene las siguientes reglas</p>
+            <p><i>ul {<br>
+            list-style-type: square;<br>
+            list-style-position: outside;<br>
+            }<br></i></p>
+            
+            <p> Que es lo mismo que, </p>
+            <p><i>ul {<br>
+                list-style: square outside;<br>
+            }<br></i></p>
+            
+            <ul id="ul-style"> List Header
+                <li> Some Element </li>
+                <li> Another Element </li>
+                <li> This Element </li>
+            </ul>
+            
+            
+            <h3> Estilo de Contenido </h3>
+            
+            <p> La regla <i>background-image</i> permite la definición de una imagen como fondo del elemento.</p>
+            <p> La regla <i>width</i> permite la definición de tamaño del ancho del elemento con diversas medidas.</p>
+            <p> La regla <i>height</i> permite la definición de tamaño del alto del elemento con diversas medidas.</p>
+            <p> La regla <i>overflow</i> permite la definición de como mostrar contenido excedente del tamaño de la ventana.</p>
+            <p> La regla <i>filter</i> permite la definición de filtros gráficos sobre el contenido.</p>
+            
+            <p> El siguiente elemento <i>div</i> tiene las siguientes reglas</p>
+            <p><i>div {<br>
+            background-image: url(https://picsum.photos/200) ;<br>
+            width: 200%;<br>
+            height: 50px;<br>
+            overflow: hidden;<br>
+            filter: blur(10px);<br>
+            }<br></i></p>
+            
+            <div id="div-display"></div>
+            
+            
+            <h3> Estilo de Posición </h3>
+            
+            <p> La regla <i>margin</i> permite la definición de tamaño del margen (espacio desde el fin del borde del elemento).</p>
+            <p> La regla <i>padding</i> permite la definición de tamaño del relleno (espacio desde el fin del elemento hasta el borde del elemento).</p>
+            <p> La regla <i>display</i> permite la definición de como mostrar el elemento en la ventana.</p>
+            <p> La regla <i>position</i> permite la definición de la posición del elemento dentro de su contenedor.</p>
+            
+            <p> Los siguientes elementos <i>img</i> tiene las siguientes reglas</p>
+            <p><i>img {<br>
+            margin: 20px;<br>
+            border: 10px solid black;
+            padding: 10px;<br>
+            display: inline;
+            position: static;
+            }<br></i></p>
+            
+            <img src="https://picsum.photos/200" id="img-position">
+            <img src="https://picsum.photos/200" id="img-position">
+            
+            
+   </body>
+
+
+</html>
