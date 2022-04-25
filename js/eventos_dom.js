@@ -138,7 +138,7 @@ window.addEventListener("load",()=>{
 
     document.getElementById("addColorButton").addEventListener("click",addColor);
     document.getElementById("remColorButton").addEventListener("click",removeColor);
-    document.getElementById("kitten-image").addEventListener("onmouseover",changeImage);
+    document.getElementById("kitten-image").addEventListener("mouseenter",changeImage);
     
     
 })
