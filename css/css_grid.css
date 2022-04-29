@@ -1,0 +1,62 @@
+
+#grid > div {
+    padding:10px;
+}
+
+
+#grid{
+    display:grid;
+    padding:10px;
+    height:80%;
+    grid-template-areas:
+    'red orange yellow'
+    'green aqua blue';
+    gap: 20px;
+    background-color:black;
+}
+
+
+.red{
+    grid-area:red;
+    background-color:#f74746;
+}
+
+ .orange{
+     grid-area:orange;
+     background-color:#fa6c4a;
+ }
+
+  .yellow{
+     grid-area:yellow;
+     background-color:#fa8d4f;
+ }
+
+  .green{
+     grid-area:green;
+     background-color:#139973;
+ }
+  .aqua{
+     grid-area:aqua;
+     background-color:#21b78f;
+ }
+  .blue{
+     grid-area:blue;
+     background-color:#31d4ab;
+ }
+
+ #layoutSelect{
+     color:white;
+     font-family:Arial;
+     border-radius: 100px;
+     background-color:black;
+     padding:5px;
+ }
+
+ #layoutswap{
+     color:white;
+     font-family:Arial;
+     border-radius:100px;
+     background-color:black;
+     padding:5px;
+ }
+
